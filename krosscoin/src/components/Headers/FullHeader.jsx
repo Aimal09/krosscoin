@@ -1,12 +1,14 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import logo from '../../assets/images/kross-header-logo-dex.png'
 
 function FullHeader() {
+  const navigate = useNavigate()
+
   return (
     <div className='header bg-primary px-[24px] py-[16px] h-[100px]'>
       <div className="flex items-center justify-between h-full w-full gap-[57px] 3xl:container 3xl:mx-auto">
-        <img src={logo} alt="kross-logo" />
+        <img src={logo} alt="kross-logo" className='cursor-pointer' onClick={() => navigate("/")} />
         <div className="-ml-[100px] flex items-center gap-[24px]">
           <NavLink to={""} className="text-white font-bold">
             Exchange
