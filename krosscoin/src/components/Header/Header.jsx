@@ -4,7 +4,7 @@ import logo from '../../assets/images/kross-header-logo.png'
 
 function Header() {
   return (
-    <div className='bg-primary px-2 py-4 h-[100px]'>
+    <div className='bg-primary px-2 py-4 h-[100px] header'>
       <div className="flex items-center h-full gap-[108px] 3xl:container 3xl:mx-auto">
         <img src={logo} alt="kross-logo" />
         <NavLink to={""} className="text-white font-bold">
