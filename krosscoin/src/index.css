@@ -23,9 +23,7 @@ h3{
 p{
   font-size: 24px;
 }
-.btn {
-}
-
+.btn,
 .get-started-button {
   background: linear-gradient(90deg, #FF00B8 -4.21%, #6905B8 100%);
 }
