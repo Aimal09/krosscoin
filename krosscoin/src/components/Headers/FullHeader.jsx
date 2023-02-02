@@ -11,19 +11,19 @@ function FullHeader() {
         <img src={logo} alt="kross-logo" className='cursor-pointer' onClick={() => navigate("/")} />
         <div className="-ml-[100px] flex items-center gap-[24px]">
           <NavLink to={""} className="text-white font-bold">
-            Exchange
+            <span>Exchange</span>
           </NavLink>
           <NavLink to={""} className="text-white font-bold">
-            Help
+            <span>Help</span>
           </NavLink>
           <NavLink to={""} className="text-white font-bold">
-            News
+            <span>News</span>
           </NavLink>
           <NavLink to={""} className="text-white font-bold">
-            Terms and Service
+            <span>Terms and Service</span>
           </NavLink>
           <NavLink to={""} className="text-white font-bold">
-            Download
+            <span>Download</span>
           </NavLink>
         </div>
         <NavLink to={""} className="get-started-button w-[223px] h-[50px] rounded-[15px] flex items-center justify-center font-bold text-white">Get Started</NavLink>
