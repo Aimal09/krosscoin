@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import SuspenseLoader from './utils/SuspenseLoader';
 import './App.css';
 const Home = React.lazy(() => import('./pages/Home'))
@@ -26,6 +26,8 @@ function App() {
           </Suspense>
         } />
       </Route>
+
+      <Route path='*' element={<Navigate to="/" />} />
     </Routes>
   );
 }
