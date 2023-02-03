@@ -13,15 +13,15 @@ function Home() {
     return (
         <>
             <Header />
-            <div className='bg-primary text-white py-4 bg-element'>
-                <div className='3xl:container 3xl:mx-auto'>
-                    <div className='flex gap-[50px] items-center mb-5 px-4'>
-                        <div className='w-6/12 content'>
+            <div className='bg-primary text-white bg-element home-page'>
+                <div className='3xl:container py-4 3xl:mx-auto slider'>
+                    <div className='flex flex-wrap items-center px-4'>
+                        <div className='w-full md:w-6/12 content'>
                             <h1>Trusted and innovative blockchain solution</h1>
                             <h3 className='my-5'>Hashgreed is a community driven network</h3>
                             <button className='btn px-8 py-3 rounded-lg mt-10'>Wallet & Dex</button>
                         </div>
-                        <div className='w-6/12'>
+                        <div className='sm:w-full md:w-6/12 main-icon'>
                             <img src={krossicon} alt="" className='mx-auto' />
                         </div>
                     </div>
@@ -37,7 +37,7 @@ function Home() {
                 </div>
 
                 <div className="footer py-5">
-                    <div className='3xl:container 3xl:mx-auto py-12 px-4'>
+                    <div className='3xl:container 3xl:mx-auto py-12 px-4 footer-content'>
                         <div className="flex items-center gap-[100px]">
                             <img src={logo} alt="krosscoin logo" />
                             <p>Copyright &copy; 2018-2023 Vinekross LLC. All Rights Reserved</p>
@@ -49,7 +49,7 @@ function Home() {
                         </div>
 
                         <div className="flex gap-[15px]">
-                            <div className="flex items-center w-9/12 flex-wrap text-2xl gap-[10px]">
+                            <div className="flex items-center w-full md:w-9/12 flex-wrap text-2xl gap-[10px]">
                                 <Link to={""}>Privacy policy</Link>
                                 <p>|</p>
                                 <Link to={""}>Terms and Conditions</Link>
@@ -58,7 +58,7 @@ function Home() {
                                 <p>|</p>
                                 <Link to={""}>krosschain Desktop Wallet Guide</Link>
                             </div>
-                            <div className="flex items-center w-3/12 flex-wrap text-2xl gap-[50px] justify-end">
+                            <div className="flex items-center w-full md:w-3/12 flex-wrap text-2xl gap-[50px] justify-end">
                                 <Link to={""}><img src={twitter} alt="" /></Link>
                                 <Link to={""}><img src={facebook} alt="" /></Link>
                                 <Link to={""}><img src={telegram} alt="" /></Link>
