@@ -6,8 +6,8 @@ function Products() {
   return (
     <>
       <FullHeader />
-      <div className="polygon-bg min-h-screen pt-[92px] bg-primary">
-        <div className="mx-auto w-[960px]">
+      <div className="polygon-bg min-h-screen pt-[33px] pb-[38px] lg:pt-[92px] bg-primary">
+        <div className="mx-auto px-2 md:px-4 lg:px-0 lg:w-[960px]">
           <div className="text-white flex flex-col gap-1">
             <span className="font-semibold">
               Products/{" "}
@@ -20,7 +20,7 @@ function Products() {
             </span>
             <h1 className="font-semibold">Products</h1>
           </div>
-          <div className="mt-[40px] py-[50px] px-[70px] rounded-[25px] bg-secondary/30">
+          <div className="mt-[32px] py-[28px] px-[21px] rounded-none bg-secondary/30 md:px-[70px] md:py-[50px] md:mt-[40px] md:rounded-[25px]">
             <p className="uppercase text-secondary-100">Kross network</p>
             <p className="text-white mt-[20px] block">
               Blockchain Network <br />
@@ -29,26 +29,26 @@ function Products() {
             </p>
             <ul className="mt-[20px] pl-[20px] list-disc text-white">
               <li className="text-[24px] pb-[.1px] border-b border-b-white w-fit">
-                <Link to={""}>Datasheet</Link>
+                <Link to={""}><p>Datasheet</p></Link>
               </li>
               <li className="text-[24px] pb-[.1px] border-b border-b-white w-fit">
-                <Link to={""}>Wallet</Link>
+                <Link to={""}><p>Wallet</p></Link>
               </li>
               <li className="text-[24px] pb-[.1px] border-b border-b-white w-fit">
-                <Link to={""}>Explorer</Link>
+                <Link to={""}><p>Explorer</p></Link>
               </li>
               <li className="text-[24px] pb-[.1px] border-b border-b-white w-fit">
-                <Link to={""}>Stats</Link>
+                <Link to={""}><p>Stats</p></Link>
               </li>
               <li className="text-[24px] pb-[.1px] border-b border-b-white w-fit">
-                <Link to={""}>Api Docs</Link>
+                <Link to={""}><p>Api Docs</p></Link>
               </li>
             </ul>
             <div className="mt-[20px] pt-[20px] border-t border-customGray">
               <p className="uppercase text-secondary-100">Hashgreed</p>
               <ul className="mt-[20px] pl-[20px] list-disc text-white">
                 <li className="text-[24px] pb-[.1px] border-b border-b-white w-fit">
-                  <Link to={""}>Hashgreed</Link>
+                  <Link to={""}><p>Hashgreed</p></Link>
                 </li>
               </ul>
             </div>
@@ -84,7 +84,7 @@ function Products() {
         </div>
       </div>
       <div className="bg-primary flex justify-end">
-        <div className="polygon-bg -mt-[150px] h-[389px] w-[447px]"></div>
+        <div className="polygon-bg h-[389px] w-[447px] -mt-[530px] ml-[75vw] md:-mt-[300px] xl:-mt-[150px]"></div>
       </div>
     </>
   );
