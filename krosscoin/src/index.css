@@ -13,6 +13,13 @@ body {
   position: relative
 }
 
+@media (max-width: 767px) {
+  .header {
+    box-shadow: none;
+    border-bottom: none;
+  }
+}
+
 h1 {
   font-size: 48px;
   font-weight: 700;
@@ -34,12 +41,10 @@ span {
 @media (max-width: 1023px) {
   h1 {
     font-size: 44px;
-    font-weight: 700;
   }
 
   h3 {
     font-size: 18px;
-    font-weight: 700;
   }
 
   p {
@@ -48,6 +53,24 @@ span {
 
   span {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  span {
+    font-size: 12px;
   }
 }
 
