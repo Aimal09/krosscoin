@@ -1,0 +1,21 @@
+.market{
+    background-color: #110942;
+}
+.table {
+    overflow: hidden;
+}
+.table thead {
+    background-color: #6905B8;
+}
+.table thead th,
+.table tbody td{
+    padding: 15px 0px 15px 30px;
+    text-align: left;
+}
+.table tbody td {
+    background: #F3F3F3;
+    color: #000000;
+}
+.table tbody td:nth-of-type(3){
+    color: #EE0909
+}

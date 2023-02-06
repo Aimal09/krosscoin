@@ -5,6 +5,7 @@ import './App.css';
 const Home = React.lazy(() => import('./pages/Home'))
 const Products = React.lazy(() => import('./pages/Products/Products'))
 const Services = React.lazy(() => import('./pages/Products/Services'))
+const Wallet = React.lazy(() => import('./pages/Wallet/Wallet'))
 
 function App() {
   return (
@@ -26,6 +27,11 @@ function App() {
           </Suspense>
         } />
       </Route>
+      <Route index={true} path='/wallet' element={
+        <Suspense fallback={<SuspenseLoader />}>
+          <Wallet />
+        </Suspense>
+      } />
 
       <Route path='*' element={<Navigate to="/" />} />
     </Routes>

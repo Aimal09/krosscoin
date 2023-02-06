@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Header from '../../components/Headers/Header'
+import FullHeader from '../../components/Headers/FullHeader'
 import krossicon from '../../assets/images/main-krosscoin-icon.png'
 import logo from '../../assets/images/krosscoing-logo-b.png'
 import twitter from '../../assets/images/twitter.png'
@@ -12,7 +12,7 @@ import style from './style.css'
 function Home() {
     return (
         <>
-            <Header />
+            <FullHeader />
             <div className='bg-primary text-white bg-element home-page'>
                 <div className='3xl:container py-4 3xl:mx-auto slider'>
                     <div className='flex flex-wrap items-center px-4'>
