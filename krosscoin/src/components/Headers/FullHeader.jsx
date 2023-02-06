@@ -18,19 +18,19 @@ function FullHeader() {
 
         <div className="ml-0 items-center hidden md:flex md:-ml-[10px] md:gap-[16px] lg:gap-[24px] lg:-ml-[50px] xl:-ml-[100px]">
           <NavLink to={""} className="text-white font-bold">
-            <span className='md:text-sm'>Exchange</span>
+            <span className=''>Exchange</span>
           </NavLink>
           <NavLink to={""} className="text-white font-bold">
-            <span className='md:text-sm'>Help</span>
+            <span className=''>Help</span>
           </NavLink>
           <NavLink to={""} className="text-white font-bold">
-            <span className='md:text-sm'>News</span>
+            <span className=''>News</span>
           </NavLink>
           <NavLink to={""} className="text-white font-bold whitespace-nowrap">
-            <span className='md:text-sm'>Terms and Service</span>
+            <span className=''>Terms and Service</span>
           </NavLink>
           <NavLink to={""} className="text-white font-bold">
-            <span className='md:text-sm'>Download</span>
+            <span className=''>Download</span>
           </NavLink>
         </div>
         <NavLink to={""} className="get-started-button h-[50px] w-fit rounded-[15px] items-center justify-center font-bold text-white hidden md:flex md:w-[150px] xl:w-[223px]">Get Started</NavLink>

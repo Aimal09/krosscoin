@@ -6,8 +6,8 @@ function Services() {
   return (
     <>
       <FullHeader />
-      <div className="polygon-bg min-h-screen py-[92px] bg-primary">
-        <div className="relative z-20 mx-auto w-[960px]">
+      <div className="polygon-bg min-h-screen pt-[33px] pb-[38px] lg:pt-[92px] bg-primary">
+        <div className="mx-auto px-2 md:px-4 lg:px-0 lg:w-[960px]">
           <div className="text-white flex flex-col gap-1">
             <span className="font-normal text-white/70">
               <Link to={"/products"}>Products/ </Link>
@@ -20,7 +20,7 @@ function Services() {
             </span>
             <h1 className="font-semibold">Services</h1>
           </div>
-          <div className="mt-[40px] py-[50px] px-[70px] rounded-[25px] bg-secondary/30">
+          <div className="mt-[32px] py-[28px] px-[21px] rounded-none bg-secondary/30 md:px-[70px] md:py-[50px] md:mt-[40px] md:rounded-[25px]">
             <p className="text-secondary-100">@KSSTippingBot</p>
             <ul className="mt-[20px] text-white">
               <li className="text-[24px] pb-[.1px] border-b border-b-white w-fit">
@@ -29,7 +29,7 @@ function Services() {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  Link to Telegram
+                  <p>Link to Telegram</p>
                 </a>
               </li>
             </ul>
@@ -47,7 +47,7 @@ function Services() {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    Link to Telegram
+                    <p>Link to Telegram</p>
                   </a>
                 </li>
               </ul>
@@ -74,7 +74,7 @@ function Services() {
               <p className="text-white mt-[20px] block">
                 Node running on the West Platform <br /> <br />
                 Lease to Address:{" "}
-                <code>3Nu1tgCX228vvydfS9rhwfv6XXQoaaGWW5v</code> on WEST
+                <code className="whitespace-pre-wrap break-words w-full">3Nu1tgCX228vvydfS9rhwfv6XXQoaaGWW5v</code> on WEST
                 Platform, receive 90% of rewards in WEST, distributed once per
                 week and paid-out proportionally, on Sundays, to staked amount
                 of WEST.
@@ -87,7 +87,7 @@ function Services() {
               <p className="text-white mt-[20px] block">
                 Node running on the LTO network <br /> <br />
                 Lease to Address:{" "}
-                <code>3JsZN7TwprVdXr9CbQ9EUvLSBG2YSZgdPGB</code> on LTO network
+                <code className="whitespace-pre-wrap break-words w-full">3JsZN7TwprVdXr9CbQ9EUvLSBG2YSZgdPGB</code> on LTO network
                 , receive 97, 5% of rewards in LTO, distributed once per week
                 and paid-out proportionally, on Sundays, to staked amount of
                 LTO.
