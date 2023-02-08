@@ -6,6 +6,8 @@ const Home = React.lazy(() => import('./pages/Home'))
 const Products = React.lazy(() => import('./pages/Products/Products'))
 const Services = React.lazy(() => import('./pages/Products/Services'))
 const Wallet = React.lazy(() => import('./pages/Wallet/Wallet'))
+const Create = React.lazy(() => import('./pages/Account/Create'))
+const Login = React.lazy(() => import('./pages/Account/Login'))
 
 function App() {
   return (
@@ -30,6 +32,11 @@ function App() {
       <Route index={true} path='/wallet' element={
         <Suspense fallback={<SuspenseLoader />}>
           <Wallet />
+        </Suspense>
+      } />
+      <Route index={true} path='/login' element={
+        <Suspense fallback={<SuspenseLoader />}>
+          <Login />
         </Suspense>
       } />
 

@@ -7,6 +7,12 @@
     background-color: #220352;
 }
 
+.about p{
+    color: #eee
+}
+.about p strong{
+    color: #fff
+}
 @media (max-width: 767px) {
     .home-page .slider {
         background-image: url(../../assets/images/main-krosscoin-icon-o25.png);
@@ -17,9 +23,6 @@
 
     .main-icon {
         display: none;
-    }
-    .about {
-        text-align: center;
     }
     .footer-content {
         gap: 25px;

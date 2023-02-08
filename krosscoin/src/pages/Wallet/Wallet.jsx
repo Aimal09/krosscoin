@@ -11,12 +11,11 @@ import fees from '../../assets/images/fees1.png'
 import gateways from '../../assets/images/gateways2.png'
 import ledger from '../../assets/images/ledger1.png'
 
-
 // eslint-disable-next-line no-unused-vars
 import style from './style.css'
 
 function Wallet() {
-    return (
+return (
         <>
             <FullHeader />
             <div className='bg-primary text-white bg-element home-page'>

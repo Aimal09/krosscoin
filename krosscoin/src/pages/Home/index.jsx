@@ -29,10 +29,14 @@ function Home() {
 
                 <div className="about py-5">
                     <div className='3xl:container 3xl:mx-auto py-12 px-4'>
-                        <h1 className='text-center mb-10'>About Krosscoin</h1>
-                        <p>Krosscoin is a very elegant concept: we build innovative apps that have a large customer base potential. We also allow third-party developer apps into our ecosystem. All apps are monetized with KSS tokens using a ‘’PAY-AS-YOU-USE’’ framework.
-                            This allows app developers to make interesting and highly functional apps, and lets the end-consumer pay for only the functions accessed, when they access or use it.
-                            Our first apps utilizing the Krosscoin Platform is the patent pending Pipdroid app family. Pipdroid apps lets forex and crypto traders launch and manage trading bots right from their smartphones. Imagine being able to access and launch bots to both forex broker platforms and crypto exchanges, right from your hand held device, anywhere you are!!. Join us as we revolutionize one industry after the other with our amazing applications</p>
+                        <h1 className='mb-10'>About Krosscoin</h1>
+                        <p className='mb-3'><strong>Krosschain</strong> is an Open, Public, Trusted, Secure, Immutable & Distributed Blockchain Network</p>
+                        <p className='mb-3'><strong>Krosschain ($KC) coin</strong> is the underlying utility asset of the Krosschain.</p>
+                        <p className='mb-3'><strong>Our vision</strong> is to provide trusted, innovative & best-of-breed blockchain solutions through service excellence.</p>
+                        <p className='mb-3'><strong>Secure Wallet</strong> for accessibility & easy token issuance.</p>
+                        <p className='mb-3'><strong>Decentralized Exchange:</strong> Krosschain DEX & Gateways.</p>
+                        <p className='mb-3'><strong>Smart Contract platform</strong> allowing trustless blockchain-based, programmable smart contracts.</p>
+                        <p ><strong>Black Turtle BV</strong> is the EU legal entity for regulatory compliance.</p>
                     </div>
                 </div>
 
