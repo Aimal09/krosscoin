@@ -26,7 +26,7 @@ function FullHeader() {
           <NavLink to={""} className="text-white font-bold">
             <span className=''>News</span>
           </NavLink>
-          <NavLink to={""} className="text-white font-bold whitespace-nowrap">
+          <NavLink to={"/products"} className="text-white font-bold whitespace-nowrap">
             <span className=''>Terms and Service</span>
           </NavLink>
           <NavLink to={""} className="text-white font-bold">

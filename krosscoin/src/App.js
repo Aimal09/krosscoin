@@ -8,6 +8,7 @@ const Services = React.lazy(() => import('./pages/Products/Services'))
 const Wallet = React.lazy(() => import('./pages/Wallet/Wallet'))
 const Create = React.lazy(() => import('./pages/Account/Create'))
 const Login = React.lazy(() => import('./pages/Account/Login'))
+const LatestBlocks = React.lazy(() => import('./pages/LatestBlocks/LatestBlocks'))
 
 function App() {
   return (
@@ -37,6 +38,11 @@ function App() {
       <Route index={true} path='/login' element={
         <Suspense fallback={<SuspenseLoader />}>
           <Login />
+        </Suspense>
+      } />
+      <Route path='latest-blocks' element={
+        <Suspense fallback={<SuspenseLoader />}>
+          <LatestBlocks />
         </Suspense>
       } />
 
