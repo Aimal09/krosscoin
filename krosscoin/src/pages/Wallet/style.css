@@ -1,3 +1,11 @@
+.bg-element,
+.bg-element-right {
+    background-image: url(../../assets/images/polygon1.png);
+    background-repeat: no-repeat;
+}
+.bg-element-right {
+    background-position: bottom right;
+}
 .market{
     background-color: #110942;
 }
@@ -18,4 +26,11 @@
 }
 .table tbody td:nth-of-type(3){
     color: #EE0909
+}
+
+@media (max-width: 767px) {
+    .content {
+        text-align: center;
+        order: 1;
+    }
 }
