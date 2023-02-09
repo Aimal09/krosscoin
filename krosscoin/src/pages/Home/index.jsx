@@ -18,7 +18,7 @@ function Home() {
                     <div className='flex flex-wrap items-center px-4'>
                         <div className='w-full md:w-6/12 content'>
                             <h1>Trusted and innovative blockchain solution</h1>
-                            <h3 className='my-5'>Hashgreed is a community driven network</h3>
+                            <h3 className='my-5'>Kross Blockchain is a community driven network</h3>
                             <button className='btn px-8 py-3 rounded-lg mt-10'>Wallet & Dex</button>
                         </div>
                         <div className='sm:w-full md:w-6/12 main-icon'>
@@ -31,12 +31,12 @@ function Home() {
                     <div className='3xl:container 3xl:mx-auto py-12 px-4'>
                         <h1 className='mb-10'>About Krosscoin</h1>
                         <p className='mb-3'><strong>Krosschain</strong> is an Open, Public, Trusted, Secure, Immutable & Distributed Blockchain Network</p>
-                        <p className='mb-3'><strong>Krosschain ($KC) coin</strong> is the underlying utility asset of the Krosschain.</p>
+                        <p className='mb-3'><strong>Krosscoin ($KSS)</strong> is the underlying utility asset of the Krosschain.</p>
                         <p className='mb-3'><strong>Our vision</strong> is to provide trusted, innovative & best-of-breed blockchain solutions through service excellence.</p>
                         <p className='mb-3'><strong>Secure Wallet</strong> for accessibility & easy token issuance.</p>
                         <p className='mb-3'><strong>Decentralized Exchange:</strong> Krosschain DEX & Gateways.</p>
                         <p className='mb-3'><strong>Smart Contract platform</strong> allowing trustless blockchain-based, programmable smart contracts.</p>
-                        <p ><strong>Black Turtle BV</strong> is the EU legal entity for regulatory compliance.</p>
+                        <p ><strong>Vinekross Technologies Limited (RC 1883948)</strong>  is the legal entity for regulatory compliance for Nigeria market</p>
                     </div>
                 </div>
 
