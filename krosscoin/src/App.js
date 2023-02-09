@@ -45,6 +45,11 @@ function App() {
           <LatestBlocks />
         </Suspense>
       } />
+      <Route index={true} path='/create' element={
+        <Suspense fallback={<SuspenseLoader />}>
+          <Create />
+        </Suspense>
+      } />
 
       <Route path='*' element={<Navigate to="/" />} />
     </Routes>

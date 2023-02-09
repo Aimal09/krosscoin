@@ -133,7 +133,13 @@ span {
 }
 input {
   color: #000;
+  border: solid 1px #fff;
+  outline: none;
 }
+input.bg-transparent {
+  color: #fff;
+}
+input.transparent
 .bg-element {
   background-image: url(assets/images/polygon1.png);
   background-repeat: no-repeat;
