@@ -78,7 +78,7 @@ function Create() {
                                 <label htmlFor="agreeterms">By clicking 'Continue', you acknowledge that you have read and accept the<Link to={""} className="text-secondary-100">Terms of Service and Privacy Policy.</Link></label>
                             </div>
 
-                            <button className='btn p-2 w-full rounded mt-5'>Login</button>
+                            <button className='btn p-2 w-full rounded mt-5'>Get Started</button>
                             <span className='text-center block w-full my-5 pt-5'><span className='text-slate-400'>Already have an account ? </span>  <Link to={""} className='text-secondary-100'> Login</Link> </span>
                         </form>
                     </div>
