@@ -6,7 +6,7 @@ function FullHeader() {
   const navigate = useNavigate()
 
   return (
-    <div className='header bg-primary px-[24px] py-[16px] h-[60px] md:h-[80px] lg:h-[100px]'>
+    <div className='header bg-primary px-2 py-[16px] h-[60px] md:px-[24px] md:h-[80px] lg:h-[100px]'>
       <div className="flex items-center justify-between h-full w-full md:gap-[20px] lg:gap-[57px] 3xl:container 3xl:mx-auto">
         <img src={logo} alt="kross-logo" className='cursor-pointer w-[180px] md:w-[150px] lg:w-[250px] xl:w-auto' onClick={() => navigate("/")} />
 
