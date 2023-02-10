@@ -6,6 +6,7 @@ const Home = React.lazy(() => import('./pages/Home'))
 const Products = React.lazy(() => import('./pages/Products/Products'))
 const Services = React.lazy(() => import('./pages/Products/Services'))
 const Wallet = React.lazy(() => import('./pages/Wallet/Wallet'))
+const MyWallet = React.lazy(() => import('./pages/Wallet/MyWallet'))
 const Create = React.lazy(() => import('./pages/Account/Create'))
 const Login = React.lazy(() => import('./pages/Account/Login'))
 const LatestBlocks = React.lazy(() => import('./pages/LatestBlocks/LatestBlocks'))
@@ -35,6 +36,13 @@ function App() {
           <Wallet />
         </Suspense>
       } />
+      
+      <Route index={true} path='/mywallet' element={
+        <Suspense fallback={<SuspenseLoader />}>
+          <MyWallet />
+        </Suspense>
+      } />
+
       <Route index={true} path='/login' element={
         <Suspense fallback={<SuspenseLoader />}>
           <Login />

@@ -13,10 +13,7 @@ function Create() {
     };
     return (
         <>
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-            <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-            <FullHeader />
+        <FullHeader />
 
             <div className='bg-primary text-white bg-element'>
                 <div className='3xl:container py-4 3xl:mx-auto slider px-4'>
@@ -79,7 +76,7 @@ function Create() {
                             </div>
 
                             <button className='btn p-2 w-full rounded mt-5'>Get Started</button>
-                            <span className='text-center block w-full my-5 pt-5'><span className='text-slate-400'>Already have an account ? </span>  <Link to={""} className='text-secondary-100'> Login</Link> </span>
+                            <span className='text-center block w-full my-5 pt-5'><span className='text-slate-400'>Already have an account ? </span>  <Link to={"/login"} className='text-secondary-100'> Login</Link> </span>
                         </form>
                     </div>
                 </div>

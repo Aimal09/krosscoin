@@ -10,9 +10,6 @@ function Login() {
     };
     return (
         <>
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-            <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
             <FullHeader />
             
             <div className='bg-primary text-white bg-element'>
@@ -31,7 +28,7 @@ function Login() {
                             </div>
                             <button className='btn p-2 rounded mt-5'>Login</button>
                             <Link to={""} className='mt-3'>Forget password?</Link>
-                            <span className='text-center my-5 pt-5'>New to Purscliq Business? <Link to={""} className='text-secondary-100'> Sign Up</Link> </span>
+                            <span className='text-center my-5 pt-5'>New to Purscliq Business? <Link to={"/create"} className='text-secondary-100'> Sign Up</Link> </span>
                         </form>
                     </div>
                 </div>
