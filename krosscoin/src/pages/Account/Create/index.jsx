@@ -58,7 +58,7 @@ function Create() {
                                 <label className="mb-2" htmlFor="password">Enter Password</label>
                                 <div className='relative mb-5 '>
                                     <input type={passwordShown ? "text" : "password"} name="password" id="password" placeholder='******' required className='p-2 rounded w-full bg-transparent' />
-                                    <div className='absolute inset-y-0 grid place-items-center right-2' onClick={togglePassword}><i class={passwordShown ? "fas fa-eye-slash" : "fas fa-eye"}></i></div>
+                                    <div className='absolute inset-y-0 grid place-items-center right-2' onClick={togglePassword}><i className={passwordShown ? "fas fa-eye-slash" : "fas fa-eye"}></i></div>
                                 </div>
                             </div>
 
@@ -66,7 +66,7 @@ function Create() {
                                 <label className="mb-2" htmlFor="cpassword">Confirm Password</label>
                                 <div className='relative mb-5 '>
                                     <input type={cPasswordShown ? "text" : "password"} name="cpassword" id="cpassword" placeholder='******' required className='p-2 rounded w-full bg-transparent' />
-                                    <div className='absolute inset-y-0 grid place-items-center right-2' onClick={toggleCPassword}><i class={cPasswordShown ? "fas fa-eye-slash" : "fas fa-eye"}></i></div>
+                                    <div className='absolute inset-y-0 grid place-items-center right-2' onClick={toggleCPassword}><i className={cPasswordShown ? "fas fa-eye-slash" : "fas fa-eye"}></i></div>
                                 </div>
                             </div>
 

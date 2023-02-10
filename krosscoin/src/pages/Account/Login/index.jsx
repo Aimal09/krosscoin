@@ -24,7 +24,7 @@ function Login() {
                             <label className="mb-2" htmlFor="password">Password</label>
                             <div className='relative mb-5 '>
                                 <input type={passwordShown ? "text" : "password"} name="password" id="password" placeholder='******' required className='p-2 rounded w-full' />
-                                <div className='absolute inset-y-0 text-black grid place-items-center right-2' onClick={togglePassword}><i class={passwordShown ? "fas fa-eye-slash" : "fas fa-eye"}></i></div>
+                                <div className='absolute inset-y-0 text-black grid place-items-center right-2' onClick={togglePassword}><i className={passwordShown ? "fas fa-eye-slash" : "fas fa-eye"}></i></div>
                             </div>
                             <button className='btn p-2 rounded mt-5'>Login</button>
                             <Link to={""} className='mt-3'>Forget password?</Link>
